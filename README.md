@@ -13,7 +13,7 @@ www.Kaggle.com
 
 # Data Preparation
 - Cleanse and Manipulation:
-  Utilizing python language - pandas and numpy libraries, Google Drive API (gspread):
+  Utilizing python language - pandas, numpy, panel, hvplot, holoviews libraries, Google Drive API (gspread):
   -Executed the connection with our data that was placed in Google Drive with gspread by the following guide https://docs.gspread.org/en/latest/oauth2.html
   -Created dataframe with all the records in the Dataset.
   -Selected the Columns needed from the dataset (Stock_code, Description, Invoice_date, Unit_price)  and added 4 more (Category, Total_profit, Unit_cost, Total_invoice) that will help us provide pertinent and coherent information for our dashboard.
@@ -80,7 +80,7 @@ www.Kaggle.com
 
 # Preparación de Datos
 Limpieza y Manipulación:
-Utilizando el lenguaje Python - bibliotecas pandas y numpy, Google Drive API (gspread):
+Utilizando el lenguaje Python - bibliotecas pandas, numpy, panel, hvplot, holoviews, Google Drive API (gspread):
 -Se realizó la conexión con nuestros datos que se encontraban en Google Drive con gspread siguiendo la guía https://docs.gspread.org/en/latest/oauth2.html
 -Se creó un dataframe con todos los registros en el conjunto de datos.
 -Se seleccionaron las columnas necesarias del conjunto de datos (Stock_code, Description, Invoice_date, Unit_price) y se agregaron 4 más (Category, Total_profit, Unit_cost, Total_invoice) que nos ayudarán a proporcionar información pertinente y coherente para nuestro panel de control.
