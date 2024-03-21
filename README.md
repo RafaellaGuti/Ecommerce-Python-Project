@@ -38,11 +38,13 @@ Toys and Games $30.797
 
 
 3 highest-selling categories: 
+
 1. Kitchen
 2. Home Decor
 3. Stationery
 
 Months with higher sales:
+
 a. Kitchen
    1. December
    2. November
