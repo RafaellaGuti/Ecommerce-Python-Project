@@ -31,39 +31,17 @@ The Python based Interactive Dashboard includes 5 elements:
 
 # Findings
 
-Category with the highest profit in the latest month (December 2011)
-Home Decor $77.176
-
-Category with the lowest profit in the latest month (December 2011)
-Toys and Games $30.797
-
-
-3 highest-selling categories: 
-
-1. Kitchen
-2. Home Decor
-3. Stationery
-
-Months with higher sales:
-
-a. Kitchen
-   1. December
-   2. November
-   3. September
-
-b. Home Decor
-   1. November
-   2. December
-   3. October
-
-c. Stationery
-   1. November
-   2. December
-   3. October
-
+- The dashboard facilitates dynamic filtering by product category, enabling users to focus on specific segments of interest.
+- Monthly insights reveal variations in sales performance, with some categories showing significant fluctuations in income, profit, and units sold.
+- Yearly performance analysis highlights trends in category performance over time, aiding in identifying growth opportunities and areas for improvement.
+- Detailed summary tables offer granular insights into individual product performance, assisting in strategic decision-making and inventory management.
 
 # Conclusions:
 
+The data analysis project provides valuable insights into sales performance across different product categories.
+The interactive dashboard offers a user-friendly interface for exploring and interpreting data, facilitating informed decision-making.
+By leveraging Python libraries and Google Drive API, the project demonstrates effective utilization of technology for data management and analysis.
+Recommendations for future enhancements may include incorporating predictive analytics models to forecast sales trends and integrating additional data sources for comprehensive analysis.
 
   
 # ES - Análisis de Ecommerce
@@ -98,33 +76,16 @@ El Panel de Control Interactivo basado en Python incluye 5 elementos:
 
 # Descubrimientos
 
-Categoria con mayores ganancias en el ultimo mes  (December 2011)
-Home Decor $77.176
-
-Categoria con menores ganancias en el ultimo mes (December 2011)
-Toys and Games $30.797
-
-3 categorias con mas ventas reportadas: 
-1. Kitchen
-2. Home Decor
-3. Stationery
-
-Meses de mayor volumen de ventas en las principales categorias:
-
-a. Kitchen
-   1. Diciembre
-   2. Noviembre
-   3. Septiembre
-
-b. Home Decor
-   1. Noviembre
-   2. Diciembre
-   3. Octubre
-
-c. Stationery
-   1. Noviembre
-   2. Diciembre
-   3. Octubre
+- El panel facilita el filtrado dinámico por categoría de producto, permitiendo a los usuarios centrarse en segmentos específicos de interés.
+- Los insights mensuales revelan variaciones en el rendimiento de las ventas, con algunas categorías mostrando fluctuaciones significativas en ingresos, beneficios y unidades vendidas.
+- El análisis de rendimiento anual destaca las tendencias en el rendimiento de la categoría con el tiempo, ayudando a identificar oportunidades de crecimiento y áreas de mejora.
+- Las tablas de resumen detalladas ofrecen insights detallados sobre el rendimiento individual del producto, ayudando en la toma de decisiones estratégicas y la gestión de inventario.
 
 
 # Conclusiones
+El proyecto de análisis de datos proporciona valiosos insights sobre el rendimiento de ventas en diferentes categorías de productos.
+El panel interactivo ofrece una interfaz fácil de usar para explorar e interpretar datos, facilitando la toma de decisiones informadas.
+
+Al aprovechar las bibliotecas de Python y la API de Google Drive, el proyecto demuestra la utilización efectiva de la tecnología para la gestión y análisis de datos.
+
+Las recomendaciones para futuras mejoras pueden incluir la incorporación de modelos de análisis predictivo para pronosticar tendencias de ventas e integrar fuentes de datos adicionales para un análisis integral
