@@ -49,10 +49,12 @@ a. Kitchen
    1. December
    2. November
    3. September
+
 b. Home Decor
    1. November
    2. December
    3. October
+
 c. Stationery
    1. November
    2. December
@@ -107,14 +109,17 @@ Toys and Games $30.797
 3. Stationery
 
 Meses de mayor volumen de ventas en las principales categorias:
+
 a. Kitchen
    1. Diciembre
    2. Noviembre
    3. Septiembre
+
 b. Home Decor
    1. Noviembre
    2. Diciembre
    3. Octubre
+
 c. Stationery
    1. Noviembre
    2. Diciembre
