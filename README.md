@@ -22,22 +22,39 @@ www.Kaggle.com
 # Data Analysis, Interpretation and Visualization (The visualization Dashboard is presented in english)
 The Python based Interactive Dashboard includes 5 elements:
 1. Interactive Filter panel called Category.
-2. Interactive row of panels indicating: Total Income in the latest month, Total profit in the latest month, Total units sold in the latest month.
-3. Interactive chart indicating the Total profits in USD made in every month by category.
-4. Chart indicating the performance of every category in the last year.
-5. Interactive Summary table that indicates the date, product, quantity, units sold and profits.
+2. Interactive row of panels indicating: Total Income in the latest month, Total profit in the latest month, Total units sold in the latest month. Objetive: providing insights of the performance of sales in the last month in every category.
+3. Interactive chart indicating the Total profits in USD made in every month by category. Objetive: Determine high-selling periods for strategy planification.
+4. Chart indicating the performance of every category in the last year. Objetive: Fast insight of a rank from the biggest selling category to the least selling category during the year.
+5. Interactive Summary table that indicates the date, product, quantity, units sold and profits. Objetive: Determine which products provided the most profit in each category, and the amount of units ordered.
 
 
 # Findings
-Biggest selling categories: 
+
+Category with the highest profit in the latest month (December 2011)
+Home Decor $77.176
+
+Category with the lowest profit in the latest month (December 2011)
+Toys and Games $30.797
+
+
+3 highest-selling categories: 
 1. Kitchen
 2. Home Decor
 3. Stationery
 
 Months with higher sales:
-1. Kitchen
-2. Home Decor
-3. Stationery
+a. Kitchen
+   1. December
+   2. November
+   3. September
+b. Home Decor
+   1. November
+   2. December
+   3. October
+c. Stationery
+   1. November
+   2. December
+   3. October
 
 
 # Conclusions:
@@ -75,17 +92,31 @@ El Panel de Control Interactivo basado en Python incluye 5 elementos:
 5. Tabla Resumen Interactiva que indica la fecha, producto, cantidad, unidades vendidas y beneficios.
 
 # Descubrimientos
-Categorías de mayor venta:
 
-1. Kitchen
-2. Home Deco
-3. Stationery
-   
-Meses con mayores ventas:
+Categoria con mayores ganancias en el ultimo mes  (December 2011)
+Home Decor $77.176
 
+Categoria con menores ganancias en el ultimo mes (December 2011)
+Toys and Games $30.797
+
+3 categorias con mas ventas reportadas: 
 1. Kitchen
-2. Home Deco
+2. Home Decor
 3. Stationery
+
+Meses de mayor volumen de ventas en las principales categorias:
+a. Kitchen
+   1. Diciembre
+   2. Noviembre
+   3. Septiembre
+b. Home Decor
+   1. Noviembre
+   2. Diciembre
+   3. Octubre
+c. Stationery
+   1. Noviembre
+   2. Diciembre
+   3. Octubre
 
 
 # Conclusiones
