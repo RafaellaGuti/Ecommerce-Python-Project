@@ -1,5 +1,7 @@
 ## Ecommerce Sales Analysis
 
+![Python Dashboard Ecommerce Project](https://github.com/RafaellaGuti/Ecommerce-Python-Project/assets/138822208/9e2fee37-81c7-4fea-9793-948ab551a780)
+
 
 ### Table of content
 ### EN
