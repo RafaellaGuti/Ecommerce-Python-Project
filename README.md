@@ -44,7 +44,6 @@ This project aims to provide an effective ETL process that builds tables related
 3. Perform initial general cleaning and prepare data to create the table from which the analysis will start by adding columns derived from other columns' records, adding a 'Category' column based on a selection of keywords obtained from the product description, rounding 'Float' columns to only 2 decimals, and assigning data types such as 'datetime', 'float', and 'str' to corresponding columns:
 
    Cleaning
-      
 ![2024-04-07 (1)](https://github.com/RafaellaGuti/Ecommerce-Python-Project/assets/138822208/b7ecd47b-44b8-4b1e-9422-b6dc47bc7a73)
 
    Defining and assigning categories using keywords
