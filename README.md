@@ -44,15 +44,17 @@ This project aims to provide an effective ETL process that builds tables related
 3. Perform initial general cleaning and prepare data to create the table from which the analysis will start by adding columns derived from other columns' records, adding a 'Category' column based on a selection of keywords obtained from the product description, rounding 'Float' columns to only 2 decimals, and assigning data types such as 'datetime', 'float', and 'str' to corresponding columns:
 
    Cleaning
+      
 ![2024-04-07 (1)](https://github.com/RafaellaGuti/Ecommerce-Python-Project/assets/138822208/b7ecd47b-44b8-4b1e-9422-b6dc47bc7a73)
 
    Defining and assigning categories using keywords
 ![2024-04-07 (2)](https://github.com/RafaellaGuti/Ecommerce-Python-Project/assets/138822208/c8921a59-4a7c-40fe-845f-e33aca94e05f)
 
 
-4. Descriptively analyze the resulting content to determine relationships, patterns, trends, insights, and relevant information that support informed decision-making aimed at improving Ecommerce performance. In this step, we also define the elements that will be part of the interactive dashboard. For more information on the data cleaning section for the chart elements, refer to the .rar file.
+5. Descriptively analyze the resulting content to determine relationships, patterns, trends, insights, and relevant information that support informed decision-making aimed at improving Ecommerce performance. In this step, we also define the elements that will be part of the interactive dashboard. For more information on the data cleaning section for the chart elements, refer to the .rar file.
 
    Element 1: Interactive row of panels indicating: Total Revenue in the last month, Total Profit in the last month, Total Units sold in the last month.
+   
 ![2024-04-07 (4)](https://github.com/RafaellaGuti/Ecommerce-Python-Project/assets/138822208/2de2ba5a-d32f-48d7-8905-d4129497e03c)
 
    Element 2: Interactive bar chart indicating Total Profits in USD made in each month by category.
@@ -112,6 +114,7 @@ Este proyecto busca proporcionar un proceso de ETL efectivo que construya tablas
 3. Realizar una primera limpieza general y preparar los datos para crear la tabla de la cual partira el analisis agregando columnas producto de los registros de otras columnas, agregando columna 'Category' a partir de una seleccion de keywords obtenidos de la descripcion del producto, redondeamos columnas 'Float'para obtener solo 2 decimales y asignamos tipo de datos como 'datetime', 'float' y 'str' a columnas correspondientes:
 
   Limpieza
+  
 ![2024-04-07 (1)](https://github.com/RafaellaGuti/Ecommerce-Python-Project/assets/138822208/b7ecd47b-44b8-4b1e-9422-b6dc47bc7a73)
 
   Definimos y asignamos categorias utilizando palabras clave
@@ -121,6 +124,7 @@ Este proyecto busca proporcionar un proceso de ETL efectivo que construya tablas
 4. Analizar de forma descriptiva el contenido resultantes para determinar relaciones, patrones, tendencias, insights e informacion relevante que de pie a la toma de decisiones informadas con direccion a la mejora del desesmpeño del Ecommerce. En este paso tambien definimos los elementos que formaran parte del tablero interactivo. Para mas informacion sobre la seccion de limpieza de datos para los elementos del grafico revisar el archivo .rar.
 
    Elemento 1: Fila interactiva de paneles que indican: Ingresos Totales en el último mes, Beneficio Total en el último mes, Unidades Totales vendidas en el último mes.
+   
 ![2024-04-07 (4)](https://github.com/RafaellaGuti/Ecommerce-Python-Project/assets/138822208/2de2ba5a-d32f-48d7-8905-d4129497e03c)
 
    Elemento 2: Gráfico de barras interactivo que indica los Beneficios Totales en USD realizados en cada mes por categoría.
