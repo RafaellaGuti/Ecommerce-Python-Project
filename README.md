@@ -6,9 +6,11 @@
 ### Table of content
 ### EN
 - [About the project](#About-the-project)
-- [Used tools, softwares and platforms](#Used-tools-softwares-and-platforms)
+- [Objectives](#Objectives)
+- [Scope](#Scope)
+- [Project Steps](#Project-Steps)
 - [Source of Data](#Source-of-Data)
-- [Data Preparation](#Data-Preparation)
+- [Used tools, softwares and platforms](#Used-tools-softwares-and-platforms)
 - [Findings](#Findings)
 - [Conclusions, Limitations and Recommendations](#Conclusions-Limitations-and-Recommendations)
 
@@ -19,39 +21,62 @@
 - [Pasos del Proyecto](#Pasos-del-Proyecto)
 - [Fuente de Datos](#Fuente-de-Datos)
 - [Herramientas, Softwares y Plataformas Utilizadas](#Herramientas-Softwares-y-Plataformas-Utilizadas)
-- [Preparación de Datos](#Preparación-de-Datos)
 - [Descubrimientos](#Descubrimientos)
 - [Conclusiones, limitaciones y recomendaciones](#Conclusiones-limitaciones-y-recomendaciones)
 
 
 ### About the project
-This Analysis is a Exploratory Data Analytics Project that involves the data of the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail. The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers - B2B clients.
+This analysis is an Exploratory Data Analysis Project involving transaction data occurring between 01/12/2010 and 09/12/2011 for an online non-physical retail store registered in the United Kingdom. The company mainly sells unique gifts for all occasions. Many of the company's customers are wholesalers: B2B clients. With both numerical and characteristic data, the additional records we will add in step 3 of this project will allow us to conduct both qualitative and quantitative analysis, enabling us to express the study's conclusions in a more comprehensive manner.
+
+### Objectives
+This analysis will determine the overall performance of products, grouped by categories, in terms of sales volume, order volume, profit margin, and sales peaks, in order to identify patterns and insights that allow the analyst to pinpoint areas for improvement for later use by the company's management.
+
+### Scope
+This project aims to provide an effective ETL process that builds tables related to the sales movements of an Ecommerce in the United Kingdom over the course of a year for subsequent visualization and analysis. The tables will allow the analyst to investigate and find relationships between sales volume, categories, quantity per order, and prices. The goal is to identify patterns, obtain clear, up-to-date, and accessible information for subsequent decision-making.
+
+### Project Steps
+1. Obtain data source online, download it to local machine, and store it in a Google Drive folder.
+
+2. Connect to Dataset in Google Drive using Google API and select the sheet and records to use.
+![2024-04-07](https://github.com/RafaellaGuti/Ecommerce-Python-Project/assets/138822208/3be9fe50-d482-44a1-a6e9-3728e8b695f3)
+
+
+3. Perform initial general cleaning and prepare data to create the table from which the analysis will start by adding columns derived from other columns' records, adding a 'Category' column based on a selection of keywords obtained from the product description, rounding 'Float' columns to only 2 decimals, and assigning data types such as 'datetime', 'float', and 'str' to corresponding columns:
+
+   Cleaning
+![2024-04-07 (1)](https://github.com/RafaellaGuti/Ecommerce-Python-Project/assets/138822208/b7ecd47b-44b8-4b1e-9422-b6dc47bc7a73)
+
+   Defining and assigning categories using keywords
+![2024-04-07 (2)](https://github.com/RafaellaGuti/Ecommerce-Python-Project/assets/138822208/c8921a59-4a7c-40fe-845f-e33aca94e05f)
+
+
+4. Descriptively analyze the resulting content to determine relationships, patterns, trends, insights, and relevant information that support informed decision-making aimed at improving Ecommerce performance. In this step, we also define the elements that will be part of the interactive dashboard. For more information on the data cleaning section for the chart elements, refer to the .rar file.
+
+   Element 1: Interactive row of panels indicating: Total Revenue in the last month, Total Profit in the last month, Total Units sold in the last month.
+![2024-04-07 (4)](https://github.com/RafaellaGuti/Ecommerce-Python-Project/assets/138822208/2de2ba5a-d32f-48d7-8905-d4129497e03c)
+
+   Element 2: Interactive bar chart indicating Total Profits in USD made in each month by category.
+![2024-04-07 (5)](https://github.com/RafaellaGuti/Ecommerce-Python-Project/assets/138822208/a86c3eb7-7549-4d2a-83b3-b6299237838b)
+
+   Element 3: Bar chart indicating the performance of each category in the last year.
+![2024-04-07 (6)](https://github.com/RafaellaGuti/Ecommerce-Python-Project/assets/138822208/4406f52c-9b56-4a44-be5b-0439f8846738)
+
+   Element 4: Interactive Summary Table indicating the date, product, quantity, units sold, and profits.
+![2024-04-07 (7)](https://github.com/RafaellaGuti/Ecommerce-Python-Project/assets/138822208/250b43b0-43a8-432c-937f-9a9345e1d63b)
+
+The fifth element is an Interactive Filter Panel called Category located on the right side of the dashboard, this panel was extracted from element 1 and is applicable to 3 of the 4 elements.
+
+5. Create a dashboard to visually report findings in an easily interpretable manner for audiences with both technical and non-technical backgrounds; accessible and supporting the communication of conclusions drawn from the findings.
+![2024-04-07 (8)](https://github.com/RafaellaGuti/Ecommerce-Python-Project/assets/138822208/3c4f3ff6-4c13-4d13-8f42-4ce99f7d09e3)
+
+### Source of Data
+Source: https://www.kaggle.com/datasets/carrie1/ecommerce-data?resource=download
+The dataset was downloaded to the local machine and subsequently uploaded to Google Drive under the name "data".
 
 ### Used tools, softwares and platforms
 - Python
 - Jupyter Notebooks
 - Google Drive API
-
-### Source of Data
-www.Kaggle.com
-
-### Data Preparation
-Cleanse and Manipulation:
-  
-- Utilizing python language - pandas, numpy, panel, hvplot, holoviews libraries, Google Drive API (gspread):
-- Executed the connection with our data that was placed in Google Drive with gspread by the following guide https://docs.gspread.org/en/latest/oauth2.html
-- Created dataframe with all the records in the Dataset.
-- Selected the Columns needed from the dataset (Stock_code, Description, Invoice_date, Unit_price)  and added 4 more (Category, Total_profit, Unit_cost, Total_invoice) that will help us provide pertinent and coherent information for our dashboard.
-- For the 'Category' column, a number or keywords were selected to locate every product in the Description column in the following categories: Home Decor, Kitchen, Stationery, Accessories, Toys and Games, and Others.
-
-### Data Analysis, Interpretation and Visualization (The visualization Dashboard is presented in english)
-The Python based Interactive Dashboard includes 5 elements:
-1. Interactive Filter panel called Category.
-2. Interactive row of panels indicating: Total Income in the latest month, Total profit in the latest month, Total units sold in the latest month. Objetive: providing insights of the performance of sales in the last month in every category.
-3. Interactive chart indicating the Total profits in USD made in every month by category. Objetive: Determine high-selling periods for strategy planification.
-4. Chart indicating the performance of every category in the last year. Objetive: Fast insight of a rank from the biggest selling category to the least selling category during the year.
-5. Interactive Summary table that indicates the date, product, quantity, units sold and profits. Objetive: Determine which products provided the most profit in each category, and the amount of units ordered.
-
 
 ### Findings
 
@@ -67,6 +92,7 @@ The interactive dashboard offers a user-friendly interface for exploring and int
 By leveraging Python libraries and Google Drive API, the project demonstrates effective utilization of technology for data management and analysis.
 Recommendations for future enhancements may include incorporating predictive analytics models to forecast sales trends and integrating additional data sources for comprehensive analysis.
 
+## ES - Analisis de Ventas de Ecommerce
   
 ### Sobre el proyecto
 Este análisis es un Proyecto de Análisis de Datos Exploratorio que involucra los datos de las transacciones ocurridas entre el 01/12/2010 y el 09/12/2011 para una tienda minorista en línea no física registrada en el Reino Unido. La empresa principalmente vende regalos únicos para todas las ocasiones. Muchos clientes de la empresa son mayoristas: clientes B2B. Contando con datos tanto numéricos como característicos, los registros complementarios que añadiremos en el paso 3 de este proyecto nos permitirán efectuar un análisis tanto cualitativo como cuantitativo, permitiéndonos expresar las conclusiones del estudio de una manera más completa.
@@ -75,7 +101,7 @@ Este análisis es un Proyecto de Análisis de Datos Exploratorio que involucra l
 Este análisis permitirá determinar el desempeño general de los productos, agrupados por categorías, en términos de volumen de ventas, volumen de pedidos, margen de ganancia y picos de ventas, con el fin de identificar patrones e insights que permitan al analista ubicar áreas de mejora para un uso posterior por parte de la gerencia de la empresa.
 
 ### Alcance
-Este proyecto busca proporcionar un proceso de ETL efectivo que construya tablas referentes a los movimientos de ventas de un Ecommerce en Reino Unido durante el periodo de un año para su posterior visualizacion y analisis. Las tablas permitiran al analista investigar y encontrar relaciones entre el columen de ventas, categorias, precios, cantidad por orden de compra y precios. Con el fin de identificar patrones, obtener informacion clara, actualizada y accesible para la posterior toma de decisiones.
+Este proyecto busca proporcionar un proceso de ETL efectivo que construya tablas referentes a los movimientos de ventas de un Ecommerce en Reino Unido durante el periodo de un año para su posterior visualizacion y analisis. Las tablas permitiran al analista investigar y encontrar relaciones entre el columen de ventas, categorias, cantidad por orden de compra y precios. Con el fin de identificar patrones, obtener informacion clara, actualizada y accesible para la posterior toma de decisiones.
 
 ### Pasos del Proyecto
 1. Obtener fuente de datos de manera online, descargarla en maquina local y almacenarla en una carpeta de Google Drive
@@ -92,11 +118,25 @@ Este proyecto busca proporcionar un proceso de ETL efectivo que construya tablas
 ![2024-04-07 (2)](https://github.com/RafaellaGuti/Ecommerce-Python-Project/assets/138822208/c8921a59-4a7c-40fe-845f-e33aca94e05f)
 
 
-5. Analizar de forma descriptiva el contenido resultantes para determinar relaciones, patrones, tendencias, insights e informacion relevante que de pie a la toma de decisiones informadas con direccion a la mejora del desesmpeño del Ecommerce. En este paso tambien definimos los elementos que formaran parte del tablero interactivo.
+4. Analizar de forma descriptiva el contenido resultantes para determinar relaciones, patrones, tendencias, insights e informacion relevante que de pie a la toma de decisiones informadas con direccion a la mejora del desesmpeño del Ecommerce. En este paso tambien definimos los elementos que formaran parte del tablero interactivo. Para mas informacion sobre la seccion de limpieza de datos para los elementos del grafico revisar el archivo .rar.
 
-   Elemento 1
-   
-7. Creacion de tablero para reportar de forma visual los hallazgos de una manera facil de interpretar para audiencias con experiencia tenica y no tecnica; accesible y que apoye a la comunicacion de conclusiones obtenidas a partir de los hallazgos
+   Elemento 1: Fila interactiva de paneles que indican: Ingresos Totales en el último mes, Beneficio Total en el último mes, Unidades Totales vendidas en el último mes.
+![2024-04-07 (4)](https://github.com/RafaellaGuti/Ecommerce-Python-Project/assets/138822208/2de2ba5a-d32f-48d7-8905-d4129497e03c)
+
+   Elemento 2: Gráfico de barras interactivo que indica los Beneficios Totales en USD realizados en cada mes por categoría.
+![2024-04-07 (5)](https://github.com/RafaellaGuti/Ecommerce-Python-Project/assets/138822208/a86c3eb7-7549-4d2a-83b3-b6299237838b)
+
+   Elemento 3: Gráfico de barras que indica el rendimiento de cada categoría en el último año.
+![2024-04-07 (6)](https://github.com/RafaellaGuti/Ecommerce-Python-Project/assets/138822208/4406f52c-9b56-4a44-be5b-0439f8846738)
+
+   Elemento 4: Tabla Resumen Interactiva que indica la fecha, producto, cantidad, unidades vendidas y beneficios.
+![2024-04-07 (7)](https://github.com/RafaellaGuti/Ecommerce-Python-Project/assets/138822208/250b43b0-43a8-432c-937f-9a9345e1d63b)
+
+El quinto elemento es Panel de Filtro Interactivo llamado Categoría que se encuentra al costado derecho del tablero, este panel fue extraido del elemento 1 y es aplicable a 3 de los 4 elementos.
+
+5. Creacion de tablero para reportar de forma visual los hallazgos de una manera facil de interpretar para audiencias con experiencia tenica y no tecnica; accesible y que apoye a la comunicacion de conclusiones obtenidas a partir de los hallazgos
+![2024-04-07 (8)](https://github.com/RafaellaGuti/Ecommerce-Python-Project/assets/138822208/3c4f3ff6-4c13-4d13-8f42-4ce99f7d09e3)
+
 
 ### Fuente de Datos
 Fuente : https://www.kaggle.com/datasets/carrie1/ecommerce-data?resource=download
@@ -106,23 +146,6 @@ El dataset fue descargado en maquina local y posteriormente subido a Google Driv
 - Lenguaje Python
 - Jupyter Notebooks
 - Google Drive API
-
-### Preparación de Datos
-Limpieza y Manipulación:
-- Utilizando el lenguaje Python - bibliotecas pandas, numpy, panel, hvplot, holoviews, Google Drive API (gspread):
-- Se realizó la conexión con nuestros datos que se encontraban en Google Drive con gspread siguiendo la guía https://docs.gspread.org/en/latest/oauth2.html
-- Se creó un dataframe con todos los registros en el conjunto de datos.
-- Se seleccionaron las columnas necesarias del conjunto de datos (Stock_code, Description, Invoice_date, Unit_price) y se agregaron 4 más (Category, Total_profit, Unit_cost, Total_invoice) que nos ayudarán a proporcionar información pertinente y coherente para nuestro panel de control.
-- Para la columna 'Category', se seleccionó un número o palabras clave para ubicar cada producto en la columna Descripción en las siguientes categorías: Home Deco, Kitchen, Stationey, Accessories, Toys and Games, y Otros.
-  
-### Análisis de Datos, Interpretación y Visualización (El tablero de visualización se presenta en inglés)
-El Panel de Control Interactivo basado en Python incluye 5 elementos:
-
-1. Panel de Filtro Interactivo llamado Categoría.
-2. Fila interactiva de paneles que indican: Ingresos Totales en el último mes, Beneficio Total en el último mes, Unidades Totales vendidas en el último mes.
-3. Gráfico interactivo que indica los Beneficios Totales en USD realizados en cada mes por categoría.
-4. Gráfico que indica el rendimiento de cada categoría en el último año.
-5. Tabla Resumen Interactiva que indica la fecha, producto, cantidad, unidades vendidas y beneficios.
 
 ### Descubrimientos
 
