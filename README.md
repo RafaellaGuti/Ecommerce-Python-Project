@@ -1,16 +1,25 @@
 ### Table of content
-# EN
-- [Ecommerce Analysis](#EN-EcommerceAnalysis)
-- [Used tools and platforms](#Usedtoolsandplatforms)
+### EN
+- [About the project](#Abouttheproject)
+- [Used tools, softwares and platforms](#Usedtools,softwaresandplatforms)
 - [Source of Data](#SourceofData)
 - [Data Preparation](#DataPreparation)
 - [Findings](#Findings)
 - [Conclusions, Limitations and Recommendations](#Conclusions,LimitationsandRecommendations)
 
-### EN - Ecommerce Analysis
+### ES
+- [Sobre el proyecto](#Sobreelproyecto)
+- [Herramientas, Softwares y Plataformas Utilizadas](#Herramientas,SoftwaresyPlataformasUtilizadas)
+- [Fuente de Datos](#FuentedeDatos)
+- [Preparación de Datos](#PreparacióndeDatos)
+- [Descubrimientos](#Descubrimientos)
+- [Conclusiones, limitaciones y recomendaciones](#Conclusiones,limitacionesyrecomendaciones)
+
+
+### About the project
 This Analysis is a Exploratory Data Analytics Project that involves the data of the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail. The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers - B2B clients.
 
-### Used tools and platforms
+### Used tools, softwares and platforms
 - Python
 - Jupyter Notebooks
 - Google Drive API
@@ -51,18 +60,16 @@ By leveraging Python libraries and Google Drive API, the project demonstrates ef
 Recommendations for future enhancements may include incorporating predictive analytics models to forecast sales trends and integrating additional data sources for comprehensive analysis.
 
   
-### ES - Análisis de Ecommerce
+### Sobre el proyecto
 Este análisis es un Proyecto de Análisis de Datos Exploratorio que involucra los datos de las transacciones ocurridas entre el 01/12/2010 y el 09/12/2011 para una tienda minorista en línea no física registrada en el Reino Unido. La empresa principalmente vende regalos únicos para todas las ocasiones. Muchos clientes de la empresa son mayoristas: clientes B2B.
 
-### Herramientas y Plataformas Utilizadas
+### Herramientas, Softwares y Plataformas Utilizadas
 - Lenguaje Python
 - Jupyter Notebooks
 - Google Drive API
 
 ### Fuente de Datos
 www.Kaggle.com
-
-### Otras Fuentes de Herramientas de Visualización
 
 ### Preparación de Datos
 Limpieza y Manipulación:
