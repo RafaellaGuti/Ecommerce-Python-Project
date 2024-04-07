@@ -81,17 +81,23 @@ The dataset was downloaded to the local machine and subsequently uploaded to Goo
 
 ### Findings
 
-- The dashboard facilitates dynamic filtering by product category, enabling users to focus on specific segments of interest.
-- Monthly insights reveal variations in sales performance, with some categories showing significant fluctuations in income, profit, and units sold.
-- Yearly performance analysis highlights trends in category performance over time, aiding in identifying growth opportunities and areas for improvement.
-- Detailed summary tables offer granular insights into individual product performance, assisting in strategic decision-making and inventory management.
+Firstly, the panel facilitates dynamic filtering by product category, allowing users to focus on specific segments of interest:
+
+- Monthly insights reveal variations in sales performance, with some categories showing significant fluctuations in revenue, profits, and units sold. Total revenue, total profit, and units sold show an increase in the last month, suggesting a positive growth in the business during that period. It would be important to investigate what factors contributed to this increase in sales. They could include successful promotions, new popular products, or an improvement in customer experience.
+
+- The monthly performance analysis highlights trends in category performance over time and can reveal trends of growth or decline in sales. The annual performance analysis provides an overview of which categories are generating the most profits in absolute terms, helping to identify growth opportunities and areas for improvement. The detailed summary table offers detailed insights into individual product performance, aiding in strategic decision-making and inventory management.
+
+It is observed that some categories may be more profitable than others. It would be helpful to investigate which specific products within those categories are contributing the most to profits.
+
+These findings suggest that sales are increasing, both overall and within certain specific categories. It would be beneficial to delve deeper into the data to better understand the reasons behind these trends and make informed strategic decisions accordingly.
+
+Identifying categories showing consistent growth can help the company focus its marketing and product development efforts on areas with high growth potential.
 
 ### Conclusions, Limitations and Recommendations
 
 The data analysis project provides valuable insights into sales performance across different product categories.
 The interactive dashboard offers a user-friendly interface for exploring and interpreting data, facilitating informed decision-making.
-By leveraging Python libraries and Google Drive API, the project demonstrates effective utilization of technology for data management and analysis.
-Recommendations for future enhancements may include incorporating predictive analytics models to forecast sales trends and integrating additional data sources for comprehensive analysis.
+Recommendations for future improvements may include incorporating predictive analytics models to forecast sales trends and integrating additional data sources for comprehensive and deeper analysis regarding factors affecting the sales performance of each product in each category.
 
 ## ES - Analisis de Ventas de Ecommerce
   
@@ -152,17 +158,22 @@ El dataset fue descargado en maquina local y posteriormente subido a Google Driv
 
 ### Descubrimientos
 
-- El panel facilita el filtrado dinámico por categoría de producto, permitiendo a los usuarios centrarse en segmentos específicos de interés.
-- Los insights mensuales revelan variaciones en el rendimiento de las ventas, con algunas categorías mostrando fluctuaciones significativas en ingresos, beneficios y unidades vendidas.
-- El análisis de rendimiento anual destaca las tendencias en el rendimiento de la categoría con el tiempo, ayudando a identificar oportunidades de crecimiento y áreas de mejora.
-- Las tablas de resumen detalladas ofrecen insights detallados sobre el rendimiento individual del producto, ayudando en la toma de decisiones estratégicas y la gestión de inventario.
+Primeramente, el panel facilita el filtrado dinámico por categoría de producto, permitiendo a los usuarios centrarse en segmentos específicos de interés:
 
+- Los insights mensuales revelan variaciones en el rendimiento de las ventas, con algunas categorías mostrando fluctuaciones significativas en ingresos, beneficios y unidades vendidas. Los ingresos totales, el beneficio total y las unidades vendidas muestran un aumento en el último mes, esto sugiere un crecimiento positivo en el negocio durante ese período. Sería importante investigar qué factores contribuyeron a este aumento en las ventas. Podrían incluir promociones exitosas, nuevos productos populares o una mejora en la experiencia del cliente.
+
+- El análisis de rendimiento mensual destaca las tendencias en el rendimiento de la categoría con el tiempo, puede revelar tendencias de crecimiento o declive en las ventas. 
+El análisis de rendimiento anuual proporciona una visión de qué categorías están generando más beneficios en términos absolutos, ayudando a identificar oportunidades de crecimiento y áreas de mejora. 
+La tabla de resumen detalladas ofrecen insights detallados sobre el rendimiento individual del producto, ayudando en la toma de decisiones estratégicas y la gestión de inventario.
+
+Se observa que algunas categorías pueden ser más rentables que otras. Sería útil investigar qué productos específicos dentro de esas categorías están contribuyendo más a los beneficios.
+  
+Estos hallazgos sugieren que las ventas están en aumento, tanto en términos generales como dentro de ciertas categorías específicas. Sería beneficioso profundizar en los datos para comprender mejor las razones detrás de estas tendencias y tomar decisiones estratégicas informadas en consecuencia.
+
+Identificar las categorías que muestran un crecimiento constante puede ayudar a la empresa a centrar sus esfuerzos de marketing y desarrollo de productos en áreas que tienen un alto potencial de crecimiento.
 
 ### Conclusiones, limitaciones y recomendaciones
 
 El proyecto de análisis de datos proporciona valiosos insights sobre el rendimiento de ventas en diferentes categorías de productos.
-El panel interactivo ofrece una interfaz fácil de usar para explorar e interpretar datos, facilitando la toma de decisiones informadas.
-
-Al aprovechar las bibliotecas de Python y la API de Google Drive, el proyecto demuestra la utilización efectiva de la tecnología para la gestión y análisis de datos.
-
-Las recomendaciones para futuras mejoras pueden incluir la incorporación de modelos de análisis predictivo para pronosticar tendencias de ventas e integrar fuentes de datos adicionales para un análisis integral
+El tablero interactivo ofrece una interfaz fácil de usar para explorar e interpretar datos, facilitando la toma de decisiones informadas.
+Las recomendaciones para futuras mejoras pueden incluir la incorporación de modelos de análisis predictivo para pronosticar tendencias de ventas e integrar fuentes de datos adicionales para un análisis integral y mas profundo respecto a factores que afectan el desempeño de ventas de cada producto de cada categoria.
