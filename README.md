@@ -5,8 +5,8 @@
 
 ### Table of content
 ### EN
-- [About the project](#Abouttheproject)
-- [Used tools, softwares and platforms](#Usedtools,softwaresandplatforms)
+- [About the project](#About-the-project)
+- [Used tools, softwares and platforms](#Used-tools-,-softwares-and-platforms)
 - [Source of Data](#SourceofData)
 - [Data Preparation](#DataPreparation)
 - [Findings](#Findings)
