@@ -7,18 +7,21 @@
 ### EN
 - [About the project](#About-the-project)
 - [Used tools, softwares and platforms](#Used-tools-softwares-and-platforms)
-- [Source of Data](#SourceofData)
-- [Data Preparation](#DataPreparation)
+- [Source of Data](#Source-of-Data)
+- [Data Preparation](#Data-Preparation)
 - [Findings](#Findings)
-- [Conclusions, Limitations and Recommendations](#Conclusions,LimitationsandRecommendations)
+- [Conclusions, Limitations and Recommendations](#Conclusions-Limitations-and-Recommendations)
 
 ### ES
-- [Sobre el proyecto](#Sobreelproyecto)
-- [Herramientas, Softwares y Plataformas Utilizadas](#Herramientas,SoftwaresyPlataformasUtilizadas)
-- [Fuente de Datos](#FuentedeDatos)
-- [Preparación de Datos](#PreparacióndeDatos)
+- [Sobre el proyecto](#Sobre-el-proyecto)
+- [Objetivos](#Objetivos)
+- [Alcance](#Alcance)
+- [Pasos del Proyecto](#Pasos-del-Proyecto)
+- [Fuente de Datos](#Fuente-de-Datos)
+- [Herramientas, Softwares y Plataformas Utilizadas](#Herramientas-Softwares-y-Plataformas-Utilizadas)
+- [Preparación de Datos](#Preparación-de-Datos)
 - [Descubrimientos](#Descubrimientos)
-- [Conclusiones, limitaciones y recomendaciones](#Conclusiones,limitacionesyrecomendaciones)
+- [Conclusiones, limitaciones y recomendaciones](#Conclusiones-limitaciones-y-recomendaciones)
 
 
 ### About the project
@@ -66,15 +69,29 @@ Recommendations for future enhancements may include incorporating predictive ana
 
   
 ### Sobre el proyecto
-Este análisis es un Proyecto de Análisis de Datos Exploratorio que involucra los datos de las transacciones ocurridas entre el 01/12/2010 y el 09/12/2011 para una tienda minorista en línea no física registrada en el Reino Unido. La empresa principalmente vende regalos únicos para todas las ocasiones. Muchos clientes de la empresa son mayoristas: clientes B2B.
+Este análisis es un Proyecto de Análisis de Datos Exploratorio que involucra los datos de las transacciones ocurridas entre el 01/12/2010 y el 09/12/2011 para una tienda minorista en línea no física registrada en el Reino Unido. La empresa principalmente vende regalos únicos para todas las ocasiones. Muchos clientes de la empresa son mayoristas: clientes B2B. Contando con datos tanto numéricos como característicos, los registros complementarios que añadiremos en el paso 3 de este proyecto nos permitirán efectuar un análisis tanto cualitativo como cuantitativo, permitiéndonos expresar las conclusiones del estudio de una manera más completa.
 
+### Objetivos
+Este análisis permitirá determinar el desempeño general de los productos, agrupados por categorías, en términos de volumen de ventas, volumen de pedidos, margen de ganancia y picos de ventas, con el fin de identificar patrones e insights que permitan al analista ubicar áreas de mejora para un uso posterior por parte de la gerencia de la empresa.
+
+### Alcance
+Este proyecto busca proporcionar un proceso de ETL efectivo que construya tablas referentes a los movimientos de ventas de un Ecommerce en Reino Unido durante el periodo de un año para su posterior visualizacion y analisis. Las tablas permitiran al analista investigar y encontrar relaciones entre el columen de ventas, categorias, precios, cantidad por orden de compra y precios. Con el fin de identificar patrones, obtener informacion clara, actualizada y accesible para la posterior toma de decisiones.
+
+### Pasos del Proyecto
+1. Obtener fuente de datos de manera online, descargarla en maquina local y almacenarla en una carpeta de Google Drive
+2. Conectar con Dataset en Google Drive utilizando Google API y seleccionar la hoja y registros a utilizar.
+3. Realizar una primera limpieza general y preparar los datos para crear la tabla de la cual partira el analisis agregando columnas producto de los registros de otras columnas, agregando columna 'Category' a partir de una seleccion de keywords obtenidos de la descripcion del producto, redondeamos columnas 'Float'para obtener solo 2 decimales y asignamos tipo de datos como 'datetime', 'float' y 'str' a columnas correspondientes.
+4. Analizar de forma descriptiva el contenido resultantes para determinar relaciones, patrones, tendencias, insights e informacion relevante que de pie a la toma de decisiones informadas con direccion a la mejora del desesmpeño del Ecommerce. En este paso tambien definimos los elementos que formaran parte del tablero interactivo.
+5. Creacion de tablero para reportar de forma visual los hallazgos de una manera facil de interpretar para audiencias con experiencia tenica y no tecnica; accesible y que apoye a la comunicacion de conclusiones obtenidas a partir de los hallazgos
+
+### Fuente de Datos
+Fuente : https://www.kaggle.com/datasets/carrie1/ecommerce-data?resource=download
+El dataset fue descargado en maquina local y posteriormente subido a Google Drive con el nombre de "data"
+   
 ### Herramientas, Softwares y Plataformas Utilizadas
 - Lenguaje Python
 - Jupyter Notebooks
 - Google Drive API
-
-### Fuente de Datos
-www.Kaggle.com
 
 ### Preparación de Datos
 Limpieza y Manipulación:
