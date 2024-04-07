@@ -1,17 +1,24 @@
-# EN - Ecommerce Analysis
+### Table of content
+# EN
+- [Ecommerce Analysis](#EN-EcommerceAnalysis)
+- [Used tools and platforms](#Usedtoolsandplatforms)
+- [Source of Data](#SourceofData)
+- [Data Preparation](#DataPreparation)
+- [Findings](#Findings)
+- [Conclusions, Limitations and Recommendations](#Conclusions,LimitationsandRecommendations)
+
+### EN - Ecommerce Analysis
 This Analysis is a Exploratory Data Analytics Project that involves the data of the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail. The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers - B2B clients.
 
-# Used tools and platforms
+### Used tools and platforms
 - Python
 - Jupyter Notebooks
 - Google Drive API
 
-# Source of Data
+### Source of Data
 www.Kaggle.com
 
-# Other Visualization tools sources
-
-# Data Preparation
+### Data Preparation
 Cleanse and Manipulation:
   
 - Utilizing python language - pandas, numpy, panel, hvplot, holoviews libraries, Google Drive API (gspread):
@@ -20,7 +27,7 @@ Cleanse and Manipulation:
 - Selected the Columns needed from the dataset (Stock_code, Description, Invoice_date, Unit_price)  and added 4 more (Category, Total_profit, Unit_cost, Total_invoice) that will help us provide pertinent and coherent information for our dashboard.
 - For the 'Category' column, a number or keywords were selected to locate every product in the Description column in the following categories: Home Decor, Kitchen, Stationery, Accessories, Toys and Games, and Others.
 
-# Data Analysis, Interpretation and Visualization (The visualization Dashboard is presented in english)
+### Data Analysis, Interpretation and Visualization (The visualization Dashboard is presented in english)
 The Python based Interactive Dashboard includes 5 elements:
 1. Interactive Filter panel called Category.
 2. Interactive row of panels indicating: Total Income in the latest month, Total profit in the latest month, Total units sold in the latest month. Objetive: providing insights of the performance of sales in the last month in every category.
@@ -29,14 +36,14 @@ The Python based Interactive Dashboard includes 5 elements:
 5. Interactive Summary table that indicates the date, product, quantity, units sold and profits. Objetive: Determine which products provided the most profit in each category, and the amount of units ordered.
 
 
-# Findings
+### Findings
 
 - The dashboard facilitates dynamic filtering by product category, enabling users to focus on specific segments of interest.
 - Monthly insights reveal variations in sales performance, with some categories showing significant fluctuations in income, profit, and units sold.
 - Yearly performance analysis highlights trends in category performance over time, aiding in identifying growth opportunities and areas for improvement.
 - Detailed summary tables offer granular insights into individual product performance, assisting in strategic decision-making and inventory management.
 
-# Conclusions:
+### Conclusions, Limitations and Recommendations
 
 The data analysis project provides valuable insights into sales performance across different product categories.
 The interactive dashboard offers a user-friendly interface for exploring and interpreting data, facilitating informed decision-making.
@@ -44,20 +51,20 @@ By leveraging Python libraries and Google Drive API, the project demonstrates ef
 Recommendations for future enhancements may include incorporating predictive analytics models to forecast sales trends and integrating additional data sources for comprehensive analysis.
 
   
-# ES - Análisis de Ecommerce
+### ES - Análisis de Ecommerce
 Este análisis es un Proyecto de Análisis de Datos Exploratorio que involucra los datos de las transacciones ocurridas entre el 01/12/2010 y el 09/12/2011 para una tienda minorista en línea no física registrada en el Reino Unido. La empresa principalmente vende regalos únicos para todas las ocasiones. Muchos clientes de la empresa son mayoristas: clientes B2B.
 
-# Herramientas y Plataformas Utilizadas
+### Herramientas y Plataformas Utilizadas
 - Lenguaje Python
 - Jupyter Notebooks
 - Google Drive API
 
-# Fuente de Datos
+### Fuente de Datos
 www.Kaggle.com
 
-# Otras Fuentes de Herramientas de Visualización
+### Otras Fuentes de Herramientas de Visualización
 
-# Preparación de Datos
+### Preparación de Datos
 Limpieza y Manipulación:
 - Utilizando el lenguaje Python - bibliotecas pandas, numpy, panel, hvplot, holoviews, Google Drive API (gspread):
 - Se realizó la conexión con nuestros datos que se encontraban en Google Drive con gspread siguiendo la guía https://docs.gspread.org/en/latest/oauth2.html
@@ -65,7 +72,7 @@ Limpieza y Manipulación:
 - Se seleccionaron las columnas necesarias del conjunto de datos (Stock_code, Description, Invoice_date, Unit_price) y se agregaron 4 más (Category, Total_profit, Unit_cost, Total_invoice) que nos ayudarán a proporcionar información pertinente y coherente para nuestro panel de control.
 - Para la columna 'Category', se seleccionó un número o palabras clave para ubicar cada producto en la columna Descripción en las siguientes categorías: Home Deco, Kitchen, Stationey, Accessories, Toys and Games, y Otros.
   
-# Análisis de Datos, Interpretación y Visualización (El tablero de visualización se presenta en inglés)
+### Análisis de Datos, Interpretación y Visualización (El tablero de visualización se presenta en inglés)
 El Panel de Control Interactivo basado en Python incluye 5 elementos:
 
 1. Panel de Filtro Interactivo llamado Categoría.
@@ -74,7 +81,7 @@ El Panel de Control Interactivo basado en Python incluye 5 elementos:
 4. Gráfico que indica el rendimiento de cada categoría en el último año.
 5. Tabla Resumen Interactiva que indica la fecha, producto, cantidad, unidades vendidas y beneficios.
 
-# Descubrimientos
+### Descubrimientos
 
 - El panel facilita el filtrado dinámico por categoría de producto, permitiendo a los usuarios centrarse en segmentos específicos de interés.
 - Los insights mensuales revelan variaciones en el rendimiento de las ventas, con algunas categorías mostrando fluctuaciones significativas en ingresos, beneficios y unidades vendidas.
@@ -82,7 +89,8 @@ El Panel de Control Interactivo basado en Python incluye 5 elementos:
 - Las tablas de resumen detalladas ofrecen insights detallados sobre el rendimiento individual del producto, ayudando en la toma de decisiones estratégicas y la gestión de inventario.
 
 
-# Conclusiones
+### Conclusiones, limitaciones y recomendaciones
+
 El proyecto de análisis de datos proporciona valiosos insights sobre el rendimiento de ventas en diferentes categorías de productos.
 El panel interactivo ofrece una interfaz fácil de usar para explorar e interpretar datos, facilitando la toma de decisiones informadas.
 
