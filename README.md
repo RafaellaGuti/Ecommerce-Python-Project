@@ -80,9 +80,23 @@ Este proyecto busca proporcionar un proceso de ETL efectivo que construya tablas
 ### Pasos del Proyecto
 1. Obtener fuente de datos de manera online, descargarla en maquina local y almacenarla en una carpeta de Google Drive
 2. Conectar con Dataset en Google Drive utilizando Google API y seleccionar la hoja y registros a utilizar.
-3. Realizar una primera limpieza general y preparar los datos para crear la tabla de la cual partira el analisis agregando columnas producto de los registros de otras columnas, agregando columna 'Category' a partir de una seleccion de keywords obtenidos de la descripcion del producto, redondeamos columnas 'Float'para obtener solo 2 decimales y asignamos tipo de datos como 'datetime', 'float' y 'str' a columnas correspondientes.
-4. Analizar de forma descriptiva el contenido resultantes para determinar relaciones, patrones, tendencias, insights e informacion relevante que de pie a la toma de decisiones informadas con direccion a la mejora del desesmpeño del Ecommerce. En este paso tambien definimos los elementos que formaran parte del tablero interactivo.
-5. Creacion de tablero para reportar de forma visual los hallazgos de una manera facil de interpretar para audiencias con experiencia tenica y no tecnica; accesible y que apoye a la comunicacion de conclusiones obtenidas a partir de los hallazgos
+
+   ![2024-04-07](https://github.com/RafaellaGuti/Ecommerce-Python-Project/assets/138822208/3be9fe50-d482-44a1-a6e9-3728e8b695f3)
+
+3. Realizar una primera limpieza general y preparar los datos para crear la tabla de la cual partira el analisis agregando columnas producto de los registros de otras columnas, agregando columna 'Category' a partir de una seleccion de keywords obtenidos de la descripcion del producto, redondeamos columnas 'Float'para obtener solo 2 decimales y asignamos tipo de datos como 'datetime', 'float' y 'str' a columnas correspondientes:
+
+  Limpieza
+![2024-04-07 (1)](https://github.com/RafaellaGuti/Ecommerce-Python-Project/assets/138822208/b7ecd47b-44b8-4b1e-9422-b6dc47bc7a73)
+
+  Definimos y asignamos categorias utilizando palabras clave
+![2024-04-07 (2)](https://github.com/RafaellaGuti/Ecommerce-Python-Project/assets/138822208/c8921a59-4a7c-40fe-845f-e33aca94e05f)
+
+
+5. Analizar de forma descriptiva el contenido resultantes para determinar relaciones, patrones, tendencias, insights e informacion relevante que de pie a la toma de decisiones informadas con direccion a la mejora del desesmpeño del Ecommerce. En este paso tambien definimos los elementos que formaran parte del tablero interactivo.
+
+   Elemento 1
+   
+7. Creacion de tablero para reportar de forma visual los hallazgos de una manera facil de interpretar para audiencias con experiencia tenica y no tecnica; accesible y que apoye a la comunicacion de conclusiones obtenidas a partir de los hallazgos
 
 ### Fuente de Datos
 Fuente : https://www.kaggle.com/datasets/carrie1/ecommerce-data?resource=download
